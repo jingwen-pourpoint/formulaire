@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="formulaire.css" />
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+        <h1>Inscription</h1>
+    </header>
+
+    <main>
+        <div>
+            <label for="pseudo">Pseudo </label><br>
+            <input type="text" id="pseudo">
+            <span id="msg_pseudo"> </span>
+        </div>
+
+        <div>
+            <label for="email">Email</label><br>
+            <input type="text" id="email">
+            <span id="msg_mail"> </span>
+        </div>
+
+        <div>
+            <label for="mdp">Mot de passe</label><br>
+            <input type="password" id="mdp">
+            <span id="msg_mdp"> </span>
+        </div>
+
+        <div>
+            <label for="confirmation">Confirmer mot de passe</label><br>
+            <input type="password" id="confirmation">
+            <span id="msg_confirmation_mdp"> </span>
+        </div>
+
+        <button id="valider" disabled>valider</button>
+
+    </main>
+    <script src="formulaire.js"></script>
+
+</body>
+
+</html>

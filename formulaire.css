@@ -1,0 +1,15 @@
+label,input{
+    width: 40%;
+}
+
+input {
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+span{
+  color: rgb(228, 19, 19);
+}
